@@ -6,11 +6,8 @@
 <body>
     @include('nav.navbar')
     <div class="container"> 
-        @yield('contentHome')
-        @yield('contentAbout')
-        @yield('contentContact')
-        @yield('contentService')
-        @yield('contentTeams')
+        @yield('content')
+
         
     </div>
 </body>
